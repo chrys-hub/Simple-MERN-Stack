@@ -1,0 +1,57 @@
+
+*,
+*:after,
+*:before {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  color: black; 
+  background-image: url('./tekno.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jumbotron{
+  background-image: url('./bg.png') ;
+  background-size: cover;
+  height: 100vh;
+  -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 11px 5px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 11px 5px 8px rgba(0,0,0,0.75);
+box-shadow: 3px 11px 5px 8px rgba(0,0,0,0.75);
+}
+
+.centerize{
+  position:absolute;
+  top: 30%;
+  left: 15%;
+}

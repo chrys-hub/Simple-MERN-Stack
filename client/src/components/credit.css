@@ -1,0 +1,13 @@
+.full-circle{
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    border: #2b2b2b;
+    color: #2b2b2b;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 8px rgba(0,0,0,0.75);
+}
